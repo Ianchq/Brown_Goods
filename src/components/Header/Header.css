@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+    background-color: #1f2933;
+}
+
+.brand {
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.search {
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: none;
+}
