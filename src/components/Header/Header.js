@@ -1,6 +1,6 @@
 import "./Header.css";
 
-function Header() {
+function Header( { onSearch } ) {
     return (
         <header className="header">
             <div className="brand">Brown Goods</div>
@@ -8,6 +8,7 @@ function Header() {
                 className="search"
                 type="text"
                 placeholder="Поиск..."
+                onChange={(e) => onSearch(e.target.value)}
             />
         </header>
     )
